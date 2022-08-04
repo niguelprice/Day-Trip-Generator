@@ -1,12 +1,12 @@
 from inspect import trace
 import random
 
-
+print('Welcome to the day trip generator! Lets get started so you can be on your way. ')
 
 
 destinations_for_trip = ['Ohio', 'Miami', 'Atlanta', 'California', 'Mexico', 'Puerto rico']
 random_destination = random.choice(destinations_for_trip)
-print(random_destination)
+print(f'Would yo like to go to {random_destination}? ')
 
 
 
@@ -87,4 +87,4 @@ print(f'Form of entertainment {random_types_of_entertainment}')
 print(f'would you like to finalize this trip')
 input('yes? ')
 print(f'Prepare for your exciting vacation! You will be going to {random_destination}, you will be arriving by {random_type_of_transportation}, where you will spend your time {random_types_of_entertainment}, and then going to {random_restaurants}.')
-
+input()
